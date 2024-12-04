@@ -45,7 +45,7 @@ const Countdown = () => {
       setIsPaused(false);
       setIsFlashing(false); // Reset flashing effect when setting new duration
     } else {
-      alert("Please enter a valid duration in seconds!");
+      alert("10");
     }
   };
 
