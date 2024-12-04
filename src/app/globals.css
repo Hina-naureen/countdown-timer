@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@keyframes flash {
+  0% {
+    background-color: #87ceeb; /* Sky blue */
+  }
+  100% {
+    background-color: transparent;
+  }
+}
+.flashing {
+  animation: flash 1s infinite alternate;
+}
