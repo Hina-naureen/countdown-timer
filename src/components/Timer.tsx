@@ -45,7 +45,7 @@ const Countdown = () => {
       setIsPaused(false);
       setIsFlashing(false); // Reset flashing effect when setting new duration
     } else {
-      alert("10  00");
+      alert(" ");
     }
   };
 
